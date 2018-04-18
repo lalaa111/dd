@@ -1,0 +1,230 @@
+/* @charset "utf-8";*/
+/* CSS Document */
+body{
+     background-color: bisque;
+}
+ header{
+     padding: 0.75rem 0.55rem 0.55rem 0.55rem;
+     font-size: 0.85rem;
+}
+ header p{
+     line-height: 1.35rem;
+     text-align: center;
+}
+header p span{color: #B0AAA1;
+		line-height: 1.35rem;
+	}
+
+ header p .dj{
+     display: inline-block;
+     border-radius: 5px;
+	 width: 6rem;
+	 height: 1.35rem ;
+     background-color: rgba(255,255,255,0.50);
+}
+ header p .dj i{
+     color: #3E3E3E;
+     font-style: normal;
+     display: inline-block;
+     width: 2.75rem;
+     height: 1rem;
+     border-radius: 0.125rem;
+     font-size: 0.6rem;
+     line-height: 1rem;
+/*	 margin-bottom: 0.2rem ;*/
+}
+ header p .dj i:hover{
+     font-weight: bold;
+     background-color: #FF7F66;
+     color: #fff;
+}
+
+.content1{
+     margin-top: 0.5rem;
+}
+ .content1 h3{
+     font-size:0.75rem;
+     color: #FF7F65;
+     padding: 0.325rem 0.6rem 0.325rem 0.55rem;
+     line-height: 1.75rem;
+    /* display: flex;
+     justify-content: space-around;
+     */
+}
+ .content1 h3 .toux{
+     width: 1.5rem;
+     height: 1.5rem;
+     border: 5px solid #FF7F66;
+     border-radius: 50%;
+     margin-right: 0.4rem;
+     overflow: hidden;
+}
+ .content1 p{
+     font-size: 0.7rem;
+     color: #2F3D4B;
+     line-height: 1.9rem;
+     padding-left: 0.55rem;
+    /* display: flex;
+     flex-wrap: nowrap;
+     */
+}
+ .content1 .content1ban{
+     width: 100%;
+     text-align: center;
+     font-size: 0;
+	 position: relative;
+}
+.content1 .content1ban .time{
+ 	height: 5.5rem;
+ 	width: 5.35rem;
+	position: absolute;
+	left: 50%;top: 0;
+	margin-left: -2.675rem;
+	background-color: rgba(0,0,0,.2);
+	opacity: 0;
+}
+.content1 .content1ban .time .h{
+	padding: 0;
+	line-height: 5.5rem;
+	font-size: 0.9rem;
+	font-weight: bold;
+	 text-align: center;
+	 color: #fff;
+}
+.content1 .content1ban .time:hover{opacity: 1;}
+ .content1 .content1ban img{
+     width: 16rem;
+     height: 5.5rem;
+}
+ .content1 .content1bu{
+     padding: 0 0.5rem;
+     background-color: #2F3D4B;
+     text-align: center;
+     height: 2rem;
+}
+ .content1 .content1bu span{
+     font-size: 0.6rem;
+     color: #FBF1DF;
+     line-height: 2rem;
+}
+ .content1 .content1bu i{
+     display: inline-block;
+     width: 5.35rem;
+     height: 1.5rem;
+     line-height: 1.5rem;
+     margin-top: 0.25rem;
+     font-size: 0.6rem;
+     color: #fff;
+     border-radius: 5px;
+     background-color: #FF7E65;
+	 margin-left: -1rem;
+}
+.content2{
+     margin-top: 0.5rem;
+}
+ .content2 h3{
+     font-size:0.75rem;
+     color: #FF7F65;
+     padding: 0.325rem 0.6rem 0.325rem 0.55rem;
+     line-height: 1.75rem;
+    /* display: flex;
+     justify-content: space-around;
+     */
+}
+ .content2 h3 .toux{
+     width: 1.5rem;
+     height: 1.5rem;
+     border: 5px solid #FF7F66;
+     border-radius: 50%;
+     margin-right: 0.4rem;
+     overflow: hidden;
+}
+ .content2 .wz{
+     font-size: 0.7rem;
+     color: #2F3D4B;
+     line-height: 1.9rem;
+     padding-left: 0.55rem;
+    /* display: flex;
+     flex-wrap: nowrap;
+     */
+	 text-overflow: ellipsis;
+     overflow: hidden;
+     white-space: nowrap;
+/*     display: inline-block;*/
+	 width: 15rem;
+}
+ .content2 .content2ban{
+     width: 100%;
+     text-align: center;
+     font-size: 0;
+	 position: relative;
+}
+.content2 .content2ban .time{
+ 	height: 5.5rem;
+ 	width: 5.35rem;
+	position: absolute;
+	left: 50%;top: 0;
+	margin-left: -2.675rem;
+	background-color: rgba(0,0,0,.2);
+	opacity: 0;
+}
+.content2 .content2ban .time:hover{opacity: 1;}
+.content2 .content2ban .time .h{
+	 padding: 0;
+	 line-height: 5.5rem;
+	 font-size: 0.9rem;
+	 font-weight: bold;
+	 text-align: center;
+	 color: #fff;
+}
+ .content2 .content2ban img{
+     width: 16rem;
+     height: 5.5rem;
+}
+ .content2 .content2bu{
+     padding: 0 0.5rem;
+     background-color: #2F3D4B;
+     text-align: center;
+     height: 2rem;
+}
+ .content2 .content2bu span{
+     font-size: 0.6rem;
+     color: #FBF1DF;
+     line-height: 2rem;
+}
+ .content2 .content2bu i{
+     display: inline-block;
+     width: 5.35rem;
+     height: 1.5rem;
+     line-height: 1.5rem;
+     margin-top: 0.25rem;
+     font-size: 0.6rem;
+     color: #fff;
+     border-radius: 5px;
+     background-color: #FF7E65;
+	 margin-left: -1rem;
+}
+header p .caidan{
+	display: inline-block;
+}
+.fz{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	position: fixed;
+	left: 0;top: 0;
+	display: none;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
