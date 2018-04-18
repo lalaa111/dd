@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input,textarea,th,td,select{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+img{border: none;}
+a{text-decoration: none;}
+/*a:hover { text-decoration: underline; }*/
+input, textarea {outline: none;border: none;}
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+.fl{float: left}
+.fr{float: right}
+.tl{text-align: left;}
+.tc{text-align: center}
+.tr{text-align: right;}
+.noselection{
+	moz-user-select: -moz-none; 
+	-moz-user-select: none; 
+	-o-user-select:none; 
+	-khtml-user-select:none; 
+	-webkit-user-select:none; 
+	-ms-user-select:none; 
+	user-select:none;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

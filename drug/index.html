@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+<title>医药</title>
+<link rel="stylesheet" href="css/repeat.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="font/iconfont.css">
+	<script>
+//	   alert(window.screen.width)
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+
+</head>
+
+<body>
+	<nav class="clearfix">
+		<span class="fl iconfont sort">&#xe621;<i class="">分类</i></span>
+		<form><input type="text" placeholder="输入搜索关键词" class="fl"></form>
+		<span class="fl iconfont gwc">&#xf0179;</span>
+	</nav>
+	
+	<div style="height: 2.25rem;width: 100%;"></div>
+	<div class="banner">
+		<img src="img/banner.png" alt="">
+	</div>
+	
+	<div class="listd">
+	<div class="list">
+		<div class="list1">
+			<div class="yuan"><div class="img"><img src="img/list1.png" alt=""></div></div>
+			<p>中西医</p>
+		</div>
+		<div class="list2">
+			<div class="yuan"><div class="img"><img src="img/list2.png" alt=""></div></div>
+			<p>儿科用药</p>
+		</div>
+		<div class="list3">
+			<div class="yuan"><div class="img"><img src="img/list3.png" alt=""></div></div>
+			<p>皮肤用药</p>
+		</div>
+		<div class="list4">
+			<div class="yuan"><div class="img"><img src="img/list4.png" alt=""></div></div>
+			<p>医疗器械</p>
+		</div>
+	</div>
+	<div class="list">
+		<div class="list5">
+			<div class="yuan"><div class="img"><img src="img/list5.png" alt=""></div></div>
+			<p>养生保健</p>
+		</div>
+		<div class="list6">
+			<div class="yuan"><div class="img"><img src="img/list6.png" alt=""></div></div>
+			<p>隐形眼镜</p>
+		</div>
+		<div class="list7">
+			<div class="yuan"><div class="img"><img src="img/list7.png" alt=""></div></div>
+			<p>美容护肤</p>
+		</div>
+		<div class="list8">
+			<div class="yuan"><div class="img"><img src="img/list8.png" alt=""></div></div>
+			<p>成人用品</p>
+		</div>
+	</div>
+	</div>
+	
+	<div class="content2 clearfix">
+		<h5><span></span>全网最低价</h5>
+		<div class="img">
+			<img src="img/co21.png" alt="" class="img1 fl">
+			<img src="img/co22.png" alt="" class="img2 fl">
+			<img src="img/co23.png" alt="" class="img3 fl">
+		</div>
+	</div>
+	
+	<div class="AD">
+		<img src="img/ad1.png" alt="">
+	</div>
+	
+	<div class="content1 clearfix">
+		<h5><span></span>答谢恩师</h5>
+		<div class="img">
+			<img src="img/co1.png" alt="" class="img1 fl">
+			<img src="img/co3.png" alt="" class="img2 fr">
+			<img src="img/co2.png" alt="" class="img3 fl">
+		</div>
+	</div>
+
+	<div class="AD">
+		<img src="img/ad2.png" alt="">
+	</div>
+	
+	<div class="content3 clearfix">
+		<h5><span></span>美美哒</h5>
+		<div class="img">
+			<img src="img/co31.png" alt="" class="img1 fl">
+			<img src="img/c032.png" alt="" class="img2 fl">
+			<img src="img/co33.png" alt="" class="img3 fl">
+		</div>
+	</div>
+	<div class="ff"></div>
+	
+	<div class="enter clearfix">
+		<p class=""><span class="fl">登陆</span><span class="s fl">|</span><span class="fl">注册</span><span class="fr">回首页<i class="iconfont fr">&#xe617;</i></span></p>
+	</div>
+	
+	<footer>
+		<p class="p1">触屏版<span>|</span>电脑版<span>|</span>APP版</p>
+		<p class="p2">
+			<span class="iconfont">&#xe722;</span>正规药店<span class="iconfont">&#xe654;</span>提供发票<span class="iconfont">&#xe644;</span>7天退换货
+		</p>
+		<p class="p3">
+			咨询电话:400-7579-818
+		</p>
+	</footer>
+	<div class="dian noselection">
+		<div class="caidan" id="caidan">
+			<div class="iconfont">&#xe608;</div>
+			<div class="chu" id="chu"></div>
+		</div>
+	</div>
+	<script>
+		var caidan=document.getElementById('caidan');
+		var chu=document.getElementById('chu');
+		caidan.onclick=function(){
+			if(chu.style.display=='block'){
+				chu.style.display='none';
+			}else{
+				chu.style.display='block';
+			}
+		}
+	</script>
+</body>
+</html>
+
+
+
+
+
