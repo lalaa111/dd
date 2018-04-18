@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>正方体</title>
+<style>
+	html{height:100%;
+		background-image:linear-gradient(yellow,black 80%);
+		perspective:800px;}
+	.box{width:200px;
+		height:200px;
+		position:relative;
+		margin:100px auto;
+		transform-style:preserve-3d;
+		animation:scale 10s linear infinite;}
+	@keyframes scale{
+		100%{transform:rotateX(360deg) rotateY(360deg);}
+	}
+	.box div{width:100%;
+		height:100%;
+		position:absolute;
+		top:0; left:0;
+		background-color:rgba(0,0,0,.4);
+		font-size:30px;
+		color:#fff;
+		text-align:center;
+		line-height:200px;
+		border:1px solid black;
+		transition:2s;}
+	.box span{display:inline-block;
+		width:50%;
+		height:50%;
+		position:absolute;
+		top:50%; left:50%;
+		margin-top:-50px;
+		margin-left:-50px;
+		background-color:rgba(0,0,0,.4);
+		font-size:30px;
+		color:#fff;
+		text-align:center;
+		line-height:100px;
+		border:1px solid red;
+		transition:2s;}
+	.front{transform:translateZ(100px);}
+	.back{transform:translateZ(-100px);}
+	.left{transform:translateX(-100px) rotateY(90deg);}
+	.right{transform:translateX(100px) rotateY(-90deg);}
+	.top{transform:translateY(-100px) rotateX(-90deg);}
+	.bottom{transform:translateY(100px) rotateX(90deg) rotateY(180deg);}
+	
+	.front1{transform:translateZ(50px);}
+	.back1{transform:translateZ(-50px);}
+	.left1{transform:translateX(-50px) rotateY(90deg);}
+	.right1{transform:translateX(50px) rotateY(-90deg);}
+	.top1{transform:translateY(-50px) rotateX(-90deg);}
+	.bottom1{transform:translateY(50px) rotateX(90deg) rotateY(180deg);}
+	
+	.box:hover .front{transform:translateZ(200px);}
+	.box:hover .back{transform:translateZ(-200px);}
+	.box:hover .left{transform:translateX(-200px) rotateY(90deg);}
+	.box:hover .right{transform:translateX(200px) rotateY(-90deg);}
+	.box:hover .top{transform:translateY(-200px) rotateX(-90deg);}
+	.box:hover .bottom{transform:translateY(200px) rotateX(90deg) rotateY(180deg);;}
+</style>
+</head>
+
+<body>
+	<a href="https://lalaa111.github.io/dd/Woman" title="裙子" target="_blank">
+		<div class="box">
+			<div class="front">前面</div>
+			<div class="back">后面</div>
+			<div class="left">左面</div>
+			<div class="right">右面</div>
+			<div class="top">上面</div>
+			<div class="bottom">下面</div>
+
+			<span class="front1">前</span>
+			<span class="back1">后</span>
+			<span class="left1">左</span>
+			<span class="right1">右</span>
+			<span class="top1">上</span>
+			<span class="bottom1">下</span>
+		</div>
+	</a>
+</body>
+</html>
