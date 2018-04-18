@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input,textarea,th,td,select{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+img{border: none;}
+a{text-decoration: none;-webkit-tap-highlight-color: transparent;}
+
+html {-webkit-text-size-adjust: none;}
+/*a:hover { text-decoration: underline; }*/
+input, textarea {outline: none;border: none;}
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+.fl{float: left}
+.fr{float: right}
+.tl{text-align: left;}
+.tc{text-align: center}
+.tr{text-align: right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

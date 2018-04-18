@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<title>Woman,Dresses</title>
+<meta charset="utf-8">
+<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/repeat.css">
+<link rel="stylesheet" href="font/iconfont.css">
+	<script>
+//	   alert(window.screen.width)
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+</head>
+
+<body>
+	<header>
+		<div class="header_top">
+			<span class="fl iconfont">&#xe60b;</span>
+			<h4 class="fl">Woman, Dresses</h4>
+			<span class="fr iconfont gwc">&#xe639;<i>3</i></span>
+		</div>
+
+		<div class="header_buttom tc">
+			<div class="btn1 fl">ADD TO WISHLIST</div>
+			<div class="btn2 fr">ADD TO CART</div>
+		</div>
+	</header>
+	
+	<div class="banner clearfix">
+			<div class="img"><img src="img/banner.png" alt=""></div>
+			<p class="">Elegant Pink Dresses<span class="fr">$605,00</span></p>
+	</div>
+	
+	<div class="Description">
+		<p><span class="iconfont">&#xe64d;</span>Description</p>
+	</div>
+	
+	<div class="list">
+		<div class="list_clolor clearfix">
+			<h5><span class="iconfont">&#xe750;</span>Colour:</h5>
+			<p>Choose a colour for item</p>
+			<div class="colo">
+				<div class="colo1"><span class="iconfont">&#xe69e;</span></div>
+				<div class="colo2"><span class="iconfont">&#xe69e;</span></div>
+				<div class="colo3"><span class="iconfont">&#xe69e;</span></div>
+			</div>
+		</div>
+		<div class="list_size clearfix">
+			<h5><span class="iconfont">&#xe6c3;</span>Colour:</h5>
+			<p>Choose a colour for item</p>
+			<div class="leaf_d">
+				<div class="leaf">6</div>
+				<div class="leaf">8</div>
+				<div class="leaf">10</div>
+				<div class="leaf">12</div>
+				<div class="leaf">14</div>	
+			</div>
+		</div>
+	</div>
+	
+	<div class="Add">
+		<p>Add to Cart</p>
+	</div>
+	
+	<footer class="clearfix">
+		<p>SHARE ON<span></span></p>
+		<div class="share">
+			<div class="sha">
+				<div class="share1 fl"><img src="img/go1.gif" alt=""></div>
+				<p class="fl"><i></i>205</p>
+			</div>
+			<div class="sha">
+				<div class="share2 fl"><img src="img/go2.gif" alt=""></div>
+				<p class="fl"><i></i>332</p>
+			</div>
+			<div class="sha">
+				<div class="share3 fl"><img src="img/go3.gif" alt=""></div>
+				<p class="fl"><i></i>112</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
